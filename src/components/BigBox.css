@@ -1,0 +1,56 @@
+.bigbox {
+    background-color: whitesmoke;
+    width: 1000px;
+    height: 450px; 
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .bulls-cows-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  input {
+    width: 100%;
+    max-width: 300px; 
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 1em;
+  }
+  
+  button {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 1em;
+  }
+  
+  h1,
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  li {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  p{
+    font-size: 12px;
+  }

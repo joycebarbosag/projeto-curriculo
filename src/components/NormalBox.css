@@ -1,0 +1,30 @@
+
+.projetos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .normal-box {
+    width: 250px;
+    height: 100px;
+    background-color: #a03cfc;
+    border: 5px solid #dcdadd;
+    border-radius: 20px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-grow: 0;
+  }
+  
+  .normal-box a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .normal-box a:hover {
+    text-decoration: underline;
+  }
+  
